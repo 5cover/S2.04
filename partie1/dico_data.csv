@@ -1,0 +1,33 @@
+nom_attribut;type;description
+code_region;chaîne de caractères;
+libelle_region;chaîne de caractères;
+code_du_departement;entier;
+nom_departement;chaîne de caractères;
+code_insee_de_la_commune;chaîne de caractères;
+nom_de_la_commune;chaîne de caractères;valeur unique parmi toutes les communes
+code_academie;entier;
+lib_academie;chaîne de caractères;
+code_quartier_prioritaire;chaîne de caractères;
+nom_quartier_prioritaire;chaîne de caractères;
+uai;chaîne de caractères;
+nom_etablissement;chaîne de caractères;
+secteur;chaîne de caractères;Public, Privé...
+code_postal;chaîne de caractères;
+lattitude;décimal (flottant);
+longitude;décimal (flottant);
+code_nature;chaîne de caractères;Ecole élémentaire, Collège, Lycée, etc.
+libelle_nature;chaîne de caractères;
+effectifs;entier;
+ips;décimal (flottant);indice de position sociale
+ecart_type_de_l_ips;décimal (flottant);écart type de l'indice de position soiciale au sein de l'établissement
+ep;chaîne de caractères;Est-on en zone d'Education Prioritaire ?
+annee_scolaire;chaîne de caractères;sous la forme 2023-2024
+nbre_eleves_hors_segpa_hors_ulis;entier;les élèves, sauf ceux en SEGPA et ULIS
+nbre_eleves_segpa;entier;les élèves en classe SEGPA
+nbre_eleves_ulis;entier;les élèves en classe ULIS
+nbre_eleves_hors_segpa_hors_ulis_selon_niveau;entier;les élèves, sauf ceux en SEGPA et ULIS en fonction de la classe
+nbre_eleves_segpa_selon_niveau;entier;les élèves en classe SEGPA en fonction de la classe
+nbre_eleves_ulis_selon_niveau;entier;les élèves en classe ULIS en fonction de la classe
+effectifs_filles;entier;nombre de filles en fonction de la classe
+effectifs_garcons;entier;nombre de garçons en fonction de la classe
+id_classe;chaîne de caractères;niveau : 6ème, 5ème, 4ème, 3ème (Collège), 
